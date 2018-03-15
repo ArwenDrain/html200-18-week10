@@ -1,0 +1,65 @@
+body {
+  background-image: url(images/palace.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  background-color: ghostwhite;
+  text-align: center;
+  margin:200px;
+  
+}
+header {
+  
+}
+nav {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  text-align: left;
+}
+
+nav li{
+
+  list-style-type: none;
+  
+}
+nav a {
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: bold;
+  color: #0a8d87;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+div {
+  display: inline-block;
+  text-align: center; 
+  background-color: white;
+  border-style: double;
+  border-color: #fc4d35;
+  padding: 5rem;
+}
+
+.enLang {
+  text-align: justify;
+}
+
+.enLang p {
+  font-family: serif;
+  font-size: 1.2rem;
+}
+
+p {
+  color: #793631;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  word-break: normal; /*does not work with CJK scripts*/
+}
+
+.lrg-ltr {
+  font-size: 2rem;
+}

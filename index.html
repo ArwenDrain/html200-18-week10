@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hello</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="korean.html">Korean/한국어</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="enLang">
+    <p>
+      <span class="lrg-ltr">W</span>hen first building a website, the intended audience might start off small and more localized. But as business and traffic grows, and the audience expands, the website developer might have to consider modifying the website to adapt for user language needs. Even in the United States, it is common to see sites available in both English and Spanish. Here are a few considerations for developing a multilingual website. When creating websites with two or more languages, do not rely on auto translators; they can often leave messy and incoherent translations. As a result, trusted translations will be needed. Instead of auto translators, create separate html pages for each different language. This helps to retain site visitors and not deter them because of poor translations. Because code is universally written in English, each html file can retain the same code; however, the text between the &lt;p&gt;, &lt;a&gt;, &lt;li&gt; and heading tags should be written in the designated language.
+    </p>
+    <p>
+      <span class="lrg-ltr">I</span>n the opening &lt;htmlgt; tag, typically the language is identified as English in the following way:<br>&lt;html lang= “en”&gt;<br> &lt;/html&gt;<br>The lang attribute specifies the language of content within that element. The available languages to choose from range anywhere between ad for Abkhazian, to zu for Zulu. If there is uncertainty about what language code to use, the entire list is available online.
+    </p>
+    <p>
+      <span class="lrg-ltr">T</span>he word-break property is useful when determining where line breaks occur in written values. The default value “normal” denotes that word breaks follow at the end of a word and the remaining text wraps to the next line. The value “break-all” will break between any two letters, meaning that a break can occur anywhere within a word if it reaches the end of the designated parameter, the remainder of that word then wraps to the next line. However, the word-break property is only useful for non-CJK scripts; that is, languages that do not use Chinese, Japanese, or Korean scripts. By clicking the “Korean/한국어” link in the top left-hand corner and resizing the screen size, it is apparent line breaks are occurring between any two letters (or characters) of a single word. This is occurring despite the addition of “work-break: normal” in the stylesheet (added for demonstration purposes only).
+    </p>
+    <p>
+      <span class="lrg-ltr">T</span>o create multilingual websites that are search friendly, it is recommended within the &lt;head&gt; to add the following:<br>&lt;link rel="alternate" hreflang="[language code]” href= “[link]” &gt;<br>This means that the current document has a relationship with an alternative language version which then links those two versions. This allows for search results to show URLs adapted for different users’ languages.
+    </p>
+    <p>
+      <span class="lrg-ltr">W</span>ith a little added knowledge and some extra planning, creating a multilingual website is not as daunting as it might appear to be. Building a multilingual website is an excellent way to expand an audience and invite different groups of users. Start with adding one language option to experiment with at a time, this helps to work out any kinks discovered with multilingual use during development. Add languages as the audience necessitates or when expanding globally to different regions. Lastly, avoid redundant work by only creating multilingual pages that make sense to the website’s audience.
+    </p>
+  </div>
+</body>
+</html>
